@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import AllReview from "./components/AllReview/AllReview";
+import Blogs from "./components/Blogs/Blogs";
 import Dashboard from "./components/Dashboard/Dashboard";
 import Header from "./components/Header/Header";
 import Homepage from "./components/Homepage/Homepage";
@@ -15,6 +16,7 @@ function App() {
         <Route index element={<Homepage />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/all-review" element={<AllReview />} />
+        <Route path="/blogs" element={<Blogs />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

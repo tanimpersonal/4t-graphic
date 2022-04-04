@@ -23,6 +23,12 @@ const Header = () => {
         >
           Review
         </CustomLink>
+        <CustomLink
+          className="border-b-4 inline-block pb-3 hover:border-red-500"
+          to="/blogs"
+        >
+          Blogs
+        </CustomLink>
       </div>
     </div>
   );

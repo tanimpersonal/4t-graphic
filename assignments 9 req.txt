@@ -17,13 +17,13 @@ Assignment 9-
 
 9. Review User pic optional. -done
 
-10. Rating style optional- 
+10. Rating style optional- done
 
 11. 404 Route(Interesting)- done
 
 12. Component and push commit > 6 - done
 
-13. Netlify problem must solve
+13. Netlify problem must solve- done
 
 14. Dashboard chart- done
 
@@ -36,7 +36,7 @@ Assignment 9-
 18. Favicon must change- done
 
 Bonus:: 
-1. Git readmi file edit live link, project name, bullet point 4 thing
+1. Git readmi file edit live link, project name, bullet point 4 thing- done
 
 2. Destructuring must - done
 

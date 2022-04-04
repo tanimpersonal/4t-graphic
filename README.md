@@ -10,3 +10,7 @@
 - Dashboard added
 - Charts Used
 - Tailwind added
+- Flowbite added
+- React rate used
+- AOS Used
+- Custom Carousel Used
