@@ -1,14 +1,10 @@
-import React, { useState } from "react";
-import Rating from "../Rating/Rating";
-
+import React from "react";
+import ReactStars from "react-rating-stars-component";
+import { render } from "react-dom";
 const Card = ({ review }) => {
-  const { name, job_title, image, details, id } = review;
-  const [rating, setRating] = useState([]);
-  const newId = parseInt(id);
-  //   for (let i = 0; i <= newId; i++) {
-  //     ;
-  //   }
-  console.log(rating);
+  const { name, job_title, image, details, rating } = review;
+  const newRating = parseInt(rating);
+  console.log(newRating);
   return (
     <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
       <div className="image overflow-hidden rounded">
@@ -26,6 +22,15 @@ const Card = ({ review }) => {
         <h6 className="mb-2 text-sm flex justify-center font-bold tracking-tight text-gray-900 dark:text-white">
           {job_title}
         </h6>
+        <p className="flex justify-center">
+          <ReactStars
+            count={5}
+            value={newRating}
+            size={24}
+            edit={false}
+            activeColor="#ffd700"
+          />
+        </p>
         <p className="mb-3 font-normal text-gray-700 text-center dark:text-gray-400">
           "{details}"
         </p>

@@ -1,50 +1,50 @@
 Assignment 9- 
-1. Design, name, can be changed
+1. Design, name, can be changed - done
 
-2. Except phone review
+2. Except phone review - done
 
-3. No lorem ipsum
+3. No lorem ipsum - done
 
-4. Button optional 
+4. Button optional - done
 
-5. Header must. Style optional 
+5. Header must. Style optional -done
 
-6. Any framework
+6. Any framework- done
 
-7. 6 Review. Card hoite pare
+7. 6 Review. Card hoite pare -done
 
-8. See all review click then show all on other page
+8. See all review click then show all on other page- done
 
-9. Review User pic optional. 
+9. Review User pic optional. -done
 
-10. Rating style optional
+10. Rating style optional- 
 
-11. 404 Route(Interesting)
+11. 404 Route(Interesting)- done
 
-12. Component and push commit > 6
+12. Component and push commit > 6 - done
 
 13. Netlify problem must solve
 
-14. Dashboard chart
+14. Dashboard chart- done
 
-15. Chart any two(Minimum). 
+15. Chart any two(Minimum). -done
 
-16. Chart will be from data.json
+16. Chart will be from data.json- done
 
-17. Title name must be changed
+17. Title name must be changed - done
 
-18. Favicon must change
+18. Favicon must change- done
 
 Bonus:: 
 1. Git readmi file edit live link, project name, bullet point 4 thing
 
-2. Destructuring must 
+2. Destructuring must - done
 
-3. Meaningful
+3. Meaningful - done
 
-4. Homepage review in custom hook 
+4. Homepage review in custom hook - done
 
-5. Homepage review 3 within 6...
+5. Homepage review 3 within 6... - done
 
 6. Blogs 3 question and answer- 
 
@@ -56,10 +56,10 @@ Bonus::
 
 optional
 
-1. Active route
+1. Active route -done
 
 2. Responsive
 
-3. More 2 routes
+3. More 2 routes -
 
 4. Conditional rendering
