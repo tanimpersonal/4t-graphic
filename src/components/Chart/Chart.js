@@ -4,6 +4,8 @@ import {
   BarChart,
   CartesianGrid,
   Legend,
+  Line,
+  LineChart,
   Pie,
   PieChart,
   Tooltip,
@@ -50,7 +52,7 @@ const Chart = () => {
     },
   ];
   return (
-    <div>
+    <div className="grid md:grid-cols-2 my-20 mx-10">
       <div className="barchart">
         <BarChart
           width={500}
@@ -72,17 +74,32 @@ const Chart = () => {
           <Bar dataKey="revenue" fill="#82ca9d" />
         </BarChart>
       </div>
-      <div className="piechart">
-        <PieChart width={400} height={400}>
-          <Pie
-            data={data}
+      <div className="linechart">
+        <LineChart
+          width={500}
+          height={300}
+          data={data}
+          margin={{
+            top: 5,
+            right: 30,
+            left: 20,
+            bottom: 5,
+          }}
+        >
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="month" />
+          <YAxis />
+          <Tooltip />
+          <Legend />
+          <Line
+            type="monotone"
             dataKey="sell"
-            cx="50%"
-            cy="50%"
-            outerRadius={60}
-            fill="#8884d8"
+            stroke="#8884d8"
+            activeDot={{ r: 8 }}
           />
-        </PieChart>
+          <Line type="monotone" dataKey="investment" stroke="#82ca9d" />
+          <Line type="monotone" dataKey="revenue" stroke="#82ca9d" />
+        </LineChart>
       </div>
     </div>
   );
