@@ -1,0 +1,65 @@
+Assignment 9- 
+1. Design, name, can be changed
+
+2. Except phone review
+
+3. No lorem ipsum
+
+4. Button optional 
+
+5. Header must. Style optional 
+
+6. Any framework
+
+7. 6 Review. Card hoite pare
+
+8. See all review click then show all on other page
+
+9. Review User pic optional. 
+
+10. Rating style optional
+
+11. 404 Route(Interesting)
+
+12. Component and push commit > 6
+
+13. Netlify problem must solve
+
+14. Dashboard chart
+
+15. Chart any two(Minimum). 
+
+16. Chart will be from data.json
+
+17. Title name must be changed
+
+18. Favicon must change
+
+Bonus:: 
+1. Git readmi file edit live link, project name, bullet point 4 thing
+
+2. Destructuring must 
+
+3. Meaningful
+
+4. Homepage review in custom hook 
+
+5. Homepage review 3 within 6...
+
+6. Blogs 3 question and answer- 
+
+1. context api 
+
+2. symantic tag
+
+3. inline block vs inline block elements
+
+optional
+
+1. Active route
+
+2. Responsive
+
+3. More 2 routes
+
+4. Conditional rendering
