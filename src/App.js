@@ -4,6 +4,7 @@ import AllReview from "./components/AllReview/AllReview";
 import Dashboard from "./components/Dashboard/Dashboard";
 import Header from "./components/Header/Header";
 import Homepage from "./components/Homepage/Homepage";
+import NotFound from "./components/NotFound/NotFound";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route index element={<Homepage />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/all-review" element={<AllReview />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );
