@@ -1,0 +1,11 @@
+.carousel-root {
+  width: 64% !important;
+  margin: auto !important;
+  margin-top: 3% !important;
+}
+.control-arrow {
+  background: #766df4 !important;
+  height: 50px !important;
+  position: absolute;
+  top: 50% !important;
+}
