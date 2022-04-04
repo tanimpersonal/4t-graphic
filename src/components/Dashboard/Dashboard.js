@@ -1,10 +1,13 @@
 import React from "react";
 import useChartData from "../../utility/useChartData";
+import Chart from "../Chart/Chart";
 
 const Dashboard = () => {
-  const [charts, setCharts] = useChartData();
-  console.log(charts);
-  return <div></div>;
+  return (
+    <div>
+      <Chart></Chart>
+    </div>
+  );
 };
 
 export default Dashboard;
