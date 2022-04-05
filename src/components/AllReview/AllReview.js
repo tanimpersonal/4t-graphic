@@ -4,7 +4,6 @@ import Card from "../Card/Card";
 
 const AllReview = () => {
   const [reviews] = useData();
-  console.log(reviews);
   return (
     <section className="my-5">
       <h1 className="text-5xl flex font-extrabold justify-center">
