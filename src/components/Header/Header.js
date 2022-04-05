@@ -17,7 +17,7 @@ const Header = () => {
         )}
       </div>
       <div
-        className={`nav absolute md:static md:flex md:flex-row md:mt-0 md:bg-transparent/0 gap-5 md:z-0 md:shadow-none justify-center duration-500 ease-linear ${
+        className={`nav absolute md:static md:flex md:flex-row md:mt-0 md:bg-transparent/0 gap-5 md:z-0 md:w-full md:shadow-none justify-center duration-500 ease-linear ${
           icon
             ? "top-[-400px] bg-blue-700 z-10 w-screen justify-center flex flex-col items-center shadow-2xl mt-10 rounded"
             : "top-14 bg-blue-700 z-10 w-screen justify-center flex flex-col items-center shadow-2xl mt-10 rounded"
