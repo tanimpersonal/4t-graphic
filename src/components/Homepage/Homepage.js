@@ -17,11 +17,11 @@ const Homepage = () => {
   };
   return (
     <section>
-      <div className="flex items-center mx-10 justify-between my-20">
-        <div className="text w-2/3 px-20">
+      <div className="grid container grid-cols-1 md:gap-52 md:grid-cols-2 items-center md:mx-10 my-10 md:my-20 px-5 md:px-10">
+        <div className="text md:mb-0 mb-10">
           <h1
             data-aos="fade-up-right"
-            className="text-8xl mb-5 font-extrabold text-[#766DF4]"
+            className=" text-7xl md:text-8xl mb-5 font-extrabold text-[#766DF4]"
           >
             4TGraphic
           </h1>
@@ -37,17 +37,20 @@ const Homepage = () => {
           <img src={icon} alt="" />
         </div>
       </div>
-      <h1 className="text-5xl flex font-extrabold justify-center">
+      <h1 className="md:text-5xl text-4xl flex font-extrabold justify-center">
         Our Customer Says!
       </h1>
       {/* Carousel start */}
-      <div className="mx-10">
+      <div className="mx-5">
         <Carousel
-          autoPlay={true}
-          infiniteLoop={true}
           className="carousel-root"
+          infiniteLoop={true}
           showThumbs={false}
           showArrows={true}
+          autoFocus={true}
+          emulateTouch={true}
+          interval={2000}
+          swipeable={true}
         >
           {reviews.slice(0, 3).map((review) => (
             <Review key={review.id} review={review}></Review>

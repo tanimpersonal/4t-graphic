@@ -9,3 +9,11 @@
   position: absolute;
   top: 50% !important;
 }
+@media only screen and (max-width: 600px) {
+  .carousel-root {
+    width: 100% !important;
+  }
+  .control-arrow {
+    top: 60% !important;
+  }
+}
