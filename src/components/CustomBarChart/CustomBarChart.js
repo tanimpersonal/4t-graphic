@@ -49,7 +49,7 @@ const CustomBarChart = () => {
     },
   ];
   return (
-    <ResponsiveContainer width="99%" aspect={3}>
+    <ResponsiveContainer width="100%" aspect={1}>
       <BarChart
         width={500}
         height={300}
