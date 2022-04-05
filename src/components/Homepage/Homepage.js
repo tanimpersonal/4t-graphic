@@ -46,7 +46,7 @@ const Homepage = () => {
         Our Customer Says!
       </h1>
       {/* Carousel start */}
-      <div className="mx-5">
+      <div className="mx-5 my-5">
         <Carousel
           className="carousel-root"
           infiniteLoop={true}
