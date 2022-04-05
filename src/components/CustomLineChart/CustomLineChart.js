@@ -1,15 +1,16 @@
 import React from "react";
 import {
-  Bar,
-  BarChart,
   CartesianGrid,
   Legend,
+  Line,
+  LineChart,
   ResponsiveContainer,
   Tooltip,
   XAxis,
   YAxis,
 } from "recharts";
-const CustomBarChart = () => {
+
+const CustomLineChart = () => {
   const data = [
     {
       month: "Mar",
@@ -50,7 +51,7 @@ const CustomBarChart = () => {
   ];
   return (
     <ResponsiveContainer width="99%" aspect={3}>
-      <BarChart
+      <LineChart
         width={500}
         height={300}
         data={data}
@@ -63,14 +64,20 @@ const CustomBarChart = () => {
       >
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="month" />
-        <YAxis dataKey="revenue" />
+        <YAxis dataKey="investment" />
         <Tooltip />
         <Legend />
-        <Bar dataKey="investment" fill="#8884d8" />
-        <Bar dataKey="revenue" fill="#82ca9d" />
-      </BarChart>
+        <Line
+          type="monotone"
+          dataKey="revenue"
+          stroke="#8884d8"
+          activeDot={{ r: 8 }}
+        />
+        <Line type="monotone" dataKey="sell" stroke="#82ca9d" />
+        <Line type="monotone" dataKey="investment" stroke="#82ca8e" />
+      </LineChart>
     </ResponsiveContainer>
   );
 };
 
-export default CustomBarChart;
+export default CustomLineChart;
