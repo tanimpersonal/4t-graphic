@@ -1,11 +1,10 @@
 import React from "react";
-import useChartData from "../../utility/useChartData";
-import Chart from "../Chart/Chart";
+import CustomBarChart from "../CustomBarChart/CustomBarChart";
 
 const Dashboard = () => {
   return (
     <div>
-      <Chart></Chart>
+      <CustomBarChart></CustomBarChart>
     </div>
   );
 };
