@@ -3,7 +3,7 @@ import useData from "../../utility/useData";
 import Card from "../Card/Card";
 
 const AllReview = () => {
-  const [reviews, setReviews] = useData();
+  const [reviews] = useData();
   console.log(reviews);
   return (
     <section className="my-5">

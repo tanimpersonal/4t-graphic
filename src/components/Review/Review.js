@@ -1,7 +1,7 @@
 import React from "react";
 import "./Review.css";
 const Review = ({ review }) => {
-  const { name, job_title, image, id } = review;
+  const { name, job_title, image } = review;
   return (
     <div className="carousel-item">
       <img src={image} alt="" />

@@ -10,7 +10,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { useNavigate } from "react-router-dom";
 AOS.init();
 const Homepage = () => {
-  const [reviews, setReviews] = useData();
+  const [reviews] = useData();
   let navigate = useNavigate();
   const navigator = () => {
     navigate("/all-review");

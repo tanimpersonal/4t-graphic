@@ -1,6 +1,5 @@
 import React from "react";
 import ReactStars from "react-rating-stars-component";
-import { render } from "react-dom";
 const Card = ({ review }) => {
   const { name, job_title, image, details, rating } = review;
   const newRating = parseInt(rating);
