@@ -48,18 +48,18 @@ Bonus::
 
 6. Blogs 3 question and answer- 
 
-1. context api 
+1. context api - done
 
-2. symantic tag
+2. symantic tag - done
 
-3. inline block vs inline block elements
+3. inline block vs inline block elements - done
 
 optional
 
 1. Active route -done
 
-2. Responsive
+2. Responsive - done
 
-3. More 2 routes -
+3. More 2 routes - 
 
-4. Conditional rendering
+4. Conditional rendering - done

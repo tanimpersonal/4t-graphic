@@ -7,7 +7,7 @@ import useData from "../../utility/useData";
 import Review from "../Review/Review";
 import "./Homepage.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 AOS.init();
 const Homepage = () => {
   const [reviews] = useData();
@@ -32,6 +32,11 @@ const Homepage = () => {
             is solid, has a good reputation, and is trusted by people of all
             sorts of startup ventures.
           </p>
+          <Link to="/all-review">
+            <button className="inline-block bg-blue-600 p-3 rounded-full mt-2">
+              See Our Reviews!
+            </button>
+          </Link>
         </div>
         <div className="image" data-aos="zoom-in-up">
           <img src={icon} alt="" />
